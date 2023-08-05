@@ -1,0 +1,16 @@
+.\main.o: main.c
+.\main.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\main.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\time.h
+.\main.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\string.h
+.\main.o: setup.h
+.\main.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\main.o: tm4c123gh6pm.h
+.\main.o: Nokia5110.h
+.\main.o: gvge.h
+.\main.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\main.o: gvge_clock.h
+.\main.o: gvge.h
+.\main.o: gvge_ant.h
+.\main.o: gvge.h
+.\main.o: graphics0.h

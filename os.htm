@@ -1,0 +1,1143 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\os.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\os.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5.03 [Build 76]: Last Updated: Tue Aug 16 15:26:50 2022
+<BR><P>
+<H3>Maximum Stack Usage =        456 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+GVGE_CLOCK__MAIN &rArr; __0sscanf &rArr; __vfscanf_char &rArr; __vfscanf &rArr; _scanf_int
+<P>
+<H3>
+Functions with no stack information
+</H3><UL>
+ <LI><a href="#[83]">Reset_Handler</a>
+</UL>
+</UL>
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1]">NMI_Handler</a><BR>
+ <LI><a href="#[2]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">HardFault_Handler</a><BR>
+ <LI><a href="#[3]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">MemManage_Handler</a><BR>
+ <LI><a href="#[4]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">BusFault_Handler</a><BR>
+ <LI><a href="#[5]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[5]">UsageFault_Handler</a><BR>
+ <LI><a href="#[6]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[6]">SVC_Handler</a><BR>
+ <LI><a href="#[7]">DebugMon_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[7]">DebugMon_Handler</a><BR>
+ <LI><a href="#[8]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[8]">PendSV_Handler</a><BR>
+ <LI><a href="#[18]">ADC0Seq0_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[18]">ADC0Seq0_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[18]">ADC0Seq0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[19]">ADC0Seq1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[1a]">ADC0Seq2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[1b]">ADC0Seq3_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[3a]">ADC1Seq0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[3b]">ADC1Seq1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[3c]">ADC1Seq2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[3d]">ADC1Seq3_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[4]">BusFault_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[31]">CAN0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[32]">CAN1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[33]">CAN2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[23]">Comp0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[24]">Comp1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[25]">Comp2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[7]">DebugMon_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[34]">Ethernet_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[3f]">ExtBus_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[5c]">FPU_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[64]">Fan0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[27]">FlashCtl_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[a]">GPIOPortA_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[b]">GPIOPortB_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[c]">GPIOPortC_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[d]">GPIOPortD_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[e]">GPIOPortE_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[28]">GPIOPortF_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[29]">GPIOPortG_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[2a]">GPIOPortH_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[40]">GPIOPortJ_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[41]">GPIOPortK_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[42]">GPIOPortL_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[61]">GPIOPortM_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[62]">GPIOPortN_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[66]">GPIOPortP1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[67]">GPIOPortP2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[68]">GPIOPortP3_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[69]">GPIOPortP4_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[6a]">GPIOPortP5_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[6b]">GPIOPortP6_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[6c]">GPIOPortP7_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[65]">GPIOPortP_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[6e]">GPIOPortQ1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[6f]">GPIOPortQ2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[70]">GPIOPortQ3_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[71]">GPIOPortQ4_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[72]">GPIOPortQ5_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[73]">GPIOPortQ6_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[74]">GPIOPortQ7_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[6d]">GPIOPortQ_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[75]">GPIOPortR_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[76]">GPIOPortS_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[82]">GVGE_ANT__MAIN</a> from main.o(i.GVGE_ANT__MAIN) referenced from main.o(i.main)
+ <LI><a href="#[81]">GVGE_CLOCK__MAIN</a> from main.o(i.GVGE_CLOCK__MAIN) referenced from main.o(i.main)
+ <LI><a href="#[2]">HardFault_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[35]">Hibernate_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[12]">I2C0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[2f]">I2C1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[4a]">I2C2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[4b]">I2C3_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[5f]">I2C4_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[60]">I2C5_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[3e]">I2S0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[5e]">LPC0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[3]">MemManage_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[5d]">PECI0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[13]">PWM0Fault_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[14]">PWM0Generator0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[15]">PWM0Generator1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[16]">PWM0Generator2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[37]">PWM0Generator3_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[7b]">PWM1Fault_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[77]">PWM1Generator0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[78]">PWM1Generator1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[79]">PWM1Generator2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[7a]">PWM1Generator3_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[8]">PendSV_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[17]">Quadrature0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[30]">Quadrature1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[63]">Quadrature2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[83]">Reset_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[11]">SSI0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[2c]">SSI1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[43]">SSI2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[44]">SSI3_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[6]">SVC_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[26]">SysCtl_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[9]">SysTick_Handler</a> from main.o(i.SysTick_Handler) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[1d]">Timer0A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[1e]">Timer0B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[1f]">Timer1A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[20]">Timer1B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[21]">Timer2A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[22]">Timer2B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[2d]">Timer3A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[2e]">Timer3B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[4c]">Timer4A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[4d]">Timer4B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[4e]">Timer5A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[4f]">Timer5B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[f]">UART0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[10]">UART1_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[2b]">UART2_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[45]">UART3_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[46]">UART4_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[47]">UART5_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[48]">UART6_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[49]">UART7_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[36]">USB0_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[5]">UsageFault_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[1c]">WDT_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[50]">WideTimer0A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[51]">WideTimer0B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[52]">WideTimer1A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[53]">WideTimer1B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[54]">WideTimer2A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[55]">WideTimer2B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[56]">WideTimer3A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[57]">WideTimer3B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[58]">WideTimer4A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[59]">WideTimer4B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[5a]">WideTimer5A_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[5b]">WideTimer5B_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[7e]">_sbackspace</a> from _sgetc.o(.text) referenced from __0sscanf.o(.text)
+ <LI><a href="#[7f]">_scanf_char_input</a> from scanf_char.o(.text) referenced from scanf_char.o(.text)
+ <LI><a href="#[7d]">_sgetc</a> from _sgetc.o(.text) referenced from __0sscanf.o(.text)
+ <LI><a href="#[80]">isspace</a> from isspace_c.o(.text) referenced from scanf_char.o(.text)
+ <LI><a href="#[7c]">main</a> from main.o(i.main) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+ <LI><a href="#[39]">uDMA_Error</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+ <LI><a href="#[38]">uDMA_Handler</a> from startup_tm4c123.o(RESET) referenced from startup_tm4c123.o(RESET)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[83]"></a>Reset_Handler</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>ADC0Seq0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC0Seq0_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC0Seq0_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>ADC0Seq1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>ADC0Seq2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>ADC0Seq3_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[3a]"></a>ADC1Seq0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[3b]"></a>ADC1Seq1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[3c]"></a>ADC1Seq2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[3d]"></a>ADC1Seq3_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[31]"></a>CAN0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[32]"></a>CAN1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[33]"></a>CAN2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>Comp0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>Comp1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>Comp2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[34]"></a>Ethernet_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[3f]"></a>ExtBus_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[5c]"></a>FPU_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[64]"></a>Fan0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>FlashCtl_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>GPIOPortA_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>GPIOPortB_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>GPIOPortC_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>GPIOPortD_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>GPIOPortE_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[28]"></a>GPIOPortF_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[29]"></a>GPIOPortG_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[2a]"></a>GPIOPortH_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[40]"></a>GPIOPortJ_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[41]"></a>GPIOPortK_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[42]"></a>GPIOPortL_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[61]"></a>GPIOPortM_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[62]"></a>GPIOPortN_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[66]"></a>GPIOPortP1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[67]"></a>GPIOPortP2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[68]"></a>GPIOPortP3_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[69]"></a>GPIOPortP4_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[6a]"></a>GPIOPortP5_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[6b]"></a>GPIOPortP6_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[6c]"></a>GPIOPortP7_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[65]"></a>GPIOPortP_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[6e]"></a>GPIOPortQ1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[6f]"></a>GPIOPortQ2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[70]"></a>GPIOPortQ3_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[71]"></a>GPIOPortQ4_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[72]"></a>GPIOPortQ5_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[73]"></a>GPIOPortQ6_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[74]"></a>GPIOPortQ7_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[6d]"></a>GPIOPortQ_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[75]"></a>GPIOPortR_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[76]"></a>GPIOPortS_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[35]"></a>Hibernate_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>I2C0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[2f]"></a>I2C1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[4a]"></a>I2C2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[4b]"></a>I2C3_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[5f]"></a>I2C4_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[60]"></a>I2C5_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[3e]"></a>I2S0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[5e]"></a>LPC0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[5d]"></a>PECI0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>PWM0Fault_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>PWM0Generator0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>PWM0Generator1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>PWM0Generator2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[37]"></a>PWM0Generator3_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[7b]"></a>PWM1Fault_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[77]"></a>PWM1Generator0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[78]"></a>PWM1Generator1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[79]"></a>PWM1Generator2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[7a]"></a>PWM1Generator3_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>Quadrature0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[30]"></a>Quadrature1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[63]"></a>Quadrature2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>SSI0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[2c]"></a>SSI1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[43]"></a>SSI2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[44]"></a>SSI3_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[26]"></a>SysCtl_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>Timer0A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>Timer0B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>Timer1A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>Timer1B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>Timer2A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>Timer2B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[2d]"></a>Timer3A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[2e]"></a>Timer3B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[4c]"></a>Timer4A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[4d]"></a>Timer4B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[4e]"></a>Timer5A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[4f]"></a>Timer5B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>UART0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>UART1_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[2b]"></a>UART2_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[45]"></a>UART3_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[46]"></a>UART4_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[47]"></a>UART5_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[48]"></a>UART6_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[49]"></a>UART7_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[36]"></a>USB0_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>WDT_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[50]"></a>WideTimer0A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[51]"></a>WideTimer0B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[52]"></a>WideTimer1A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[53]"></a>WideTimer1B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[54]"></a>WideTimer2A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[55]"></a>WideTimer2B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[56]"></a>WideTimer3A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[57]"></a>WideTimer3B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[58]"></a>WideTimer4A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[59]"></a>WideTimer4B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[5a]"></a>WideTimer5A_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[5b]"></a>WideTimer5B_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[39]"></a>uDMA_Error</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[38]"></a>uDMA_Handler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_tm4c123.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[84]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reset_Handler
+</UL>
+
+<P><STRONG><a name="[c9]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[85]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[92]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[ca]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[cb]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[cc]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[cd]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+
+<P><STRONG><a name="[ce]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[9b]"></a>rand</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, rand.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__update
+</UL>
+
+<P><STRONG><a name="[9a]"></a>srand</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, rand.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__update
+</UL>
+
+<P><STRONG><a name="[87]"></a>mktime</STRONG> (Thumb, 142 bytes, Stack size 16 bytes, mktime.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = mktime &rArr; _localtime
+</UL>
+<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_localtime
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[b4]"></a>strftime</STRONG> (Thumb, 416 bytes, Stack size 60 bytes, strftime.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = strftime
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[cf]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[b2]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[d0]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[8a]"></a>__aeabi_memset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset$wrapper
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+
+<P><STRONG><a name="[d1]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[d2]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[89]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+
+<P><STRONG><a name="[b1]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[d3]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[8b]"></a>_memset$wrapper</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, memseta.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+
+<P><STRONG><a name="[af]"></a>strstr</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, strstr.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = strstr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[b0]"></a>strlen</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, strlen.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;text
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[8c]"></a>__0sscanf</STRONG> (Thumb, 48 bytes, Stack size 72 bytes, __0sscanf.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = __0sscanf &rArr; __vfscanf_char &rArr; __vfscanf &rArr; _scanf_int
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__vfscanf_char
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[8e]"></a>_scanf_int</STRONG> (Thumb, 336 bytes, Stack size 56 bytes, _scanf_int.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = _scanf_int
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_chval
+</UL>
+<BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__vfscanf
+</UL>
+
+<P><STRONG><a name="[90]"></a>localtime</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, localtime_w.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = localtime &rArr; _localtime
+</UL>
+<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_localtime
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[88]"></a>_localtime</STRONG> (Thumb, 122 bytes, Stack size 12 bytes, localtime_i.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = _localtime
+</UL>
+<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mktime
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;localtime
+</UL>
+
+<P><STRONG><a name="[8f]"></a>_chval</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, _chval.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_scanf_int
+</UL>
+
+<P><STRONG><a name="[8d]"></a>__vfscanf_char</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, scanf_char.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = __vfscanf_char &rArr; __vfscanf &rArr; _scanf_int
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__vfscanf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sscanf
+</UL>
+
+<P><STRONG><a name="[7d]"></a>_sgetc</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, _sgetc.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> __0sscanf.o(.text)
+</UL>
+<P><STRONG><a name="[7e]"></a>_sbackspace</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, _sgetc.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> __0sscanf.o(.text)
+</UL>
+<P><STRONG><a name="[86]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[d4]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[80]"></a>isspace</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, isspace_c.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ctype_lookup
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> scanf_char.o(.text)
+</UL>
+<P><STRONG><a name="[91]"></a>__vfscanf</STRONG> (Thumb, 806 bytes, Stack size 88 bytes, _scanf.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = __vfscanf &rArr; _scanf_int
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_scanf_int
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__vfscanf_char
+</UL>
+
+<P><STRONG><a name="[93]"></a>__ctype_lookup</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, ctype_c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;isspace
+</UL>
+
+<P><STRONG><a name="[94]"></a>ANT__create</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, gvge_ant.o(i.ANT__create))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = ANT__create &rArr; malloc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__MAIN
+</UL>
+
+<P><STRONG><a name="[96]"></a>ANT__draw</STRONG> (Thumb, 30 bytes, Stack size 4 bytes, gvge_ant.o(i.ANT__draw))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = ANT__draw
+</UL>
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__y
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__x
+</UL>
+<BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__MAIN
+</UL>
+
+<P><STRONG><a name="[99]"></a>ANT__update</STRONG> (Thumb, 146 bytes, Stack size 40 bytes, gvge_ant.o(i.ANT__update))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = ANT__update
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;srand
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rand
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__y
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__x
+</UL>
+<BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__MAIN
+</UL>
+
+<P><STRONG><a name="[97]"></a>ANT__x</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gvge_ant.o(i.ANT__x))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__update
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__draw
+</UL>
+
+<P><STRONG><a name="[98]"></a>ANT__y</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gvge_ant.o(i.ANT__y))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__update
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__draw
+</UL>
+
+<P><STRONG><a name="[c6]"></a>BTN_ROW__BTNS</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gvge.o(i.BTN_ROW__BTNS))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[9c]"></a>BTN_ROW__create</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, gvge.o(i.BTN_ROW__create))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = BTN_ROW__create &rArr; malloc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c8]"></a>BTN__click</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gvge.o(i.BTN__click))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[9d]"></a>BTN__create</STRONG> (Thumb, 48 bytes, Stack size 80 bytes, gvge.o(i.BTN__create))
+<BR><BR>[Stack]<UL><LI>Max Depth = 172<LI>Call Chain = BTN__create &rArr; BTN__init &rArr; drawRectangle &rArr; drawVLine &rArr; setPixel
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[9f]"></a>BTN__destroy</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, gvge.o(i.BTN__destroy))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = BTN__destroy &rArr; clearFilledRectangle &rArr; clearHLine
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearFilledRectangle
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[9e]"></a>BTN__init</STRONG> (Thumb, 136 bytes, Stack size 40 bytes, gvge.o(i.BTN__init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = BTN__init &rArr; drawRectangle &rArr; drawVLine &rArr; setPixel
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;invertPixel
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawRectangle
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawBitmap
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__reset
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__create
+</UL>
+
+<P><STRONG><a name="[a5]"></a>BTN__reset</STRONG> (Thumb, 66 bytes, Stack size 32 bytes, gvge.o(i.BTN__reset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 124<LI>Call Chain = BTN__reset &rArr; BTN__init &rArr; drawRectangle &rArr; drawVLine &rArr; setPixel
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearFilledRectangle
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c5]"></a>CHAR_RX</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, setup.o(i.CHAR_RX))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[ad]"></a>CHAR_TX</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, setup.o(i.CHAR_TX))
+<BR><BR>[Called By]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STRING_TX
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[a6]"></a>GVGE_ANT__INITDISPLAY</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, gvge_ant.o(i.GVGE_ANT__INITDISPLAY))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = GVGE_ANT__INITDISPLAY
+</UL>
+<BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__MAIN
+</UL>
+
+<P><STRONG><a name="[82]"></a>GVGE_ANT__MAIN</STRONG> (Thumb, 80 bytes, Stack size 0 bytes, main.o(i.GVGE_ANT__MAIN))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = GVGE_ANT__MAIN &rArr; ANT__update
+</UL>
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_DisplayBuffer
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_ClearBuffer
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_Clear
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__SHOWDISPLAY
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__INITDISPLAY
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__update
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__draw
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__create
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> main.o(i.main)
+</UL>
+<P><STRONG><a name="[a9]"></a>GVGE_ANT__SHOWDISPLAY</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, gvge_ant.o(i.GVGE_ANT__SHOWDISPLAY))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GVGE_ANT__SHOWDISPLAY &rArr; setPixel
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setPixel
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearPixel
+</UL>
+<BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__MAIN
+</UL>
+
+<P><STRONG><a name="[81]"></a>GVGE_CLOCK__MAIN</STRONG> (Thumb, 386 bytes, Stack size 240 bytes, main.o(i.GVGE_CLOCK__MAIN))
+<BR><BR>[Stack]<UL><LI>Max Depth = 456<LI>Call Chain = GVGE_CLOCK__MAIN &rArr; __0sscanf &rArr; __vfscanf_char &rArr; __vfscanf &rArr; _scanf_int
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;text
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STRING_TX
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_DisplayBuffer
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_ClearBuffer
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_Clear
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE__SCREEN_INVERT
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CHAR_TX
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;time
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strstr
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strftime
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mktime
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;localtime
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sscanf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> main.o(i.main)
+</UL>
+<P><STRONG><a name="[b6]"></a>GVGE__SCREEN_INVERT</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, gvge.o(i.GVGE__SCREEN_INVERT))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GVGE__SCREEN_INVERT &rArr; invertPixel
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;invertPixel
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[c4]"></a>IS_THERE_A_CHAR</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, setup.o(i.IS_THERE_A_CHAR))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[a7]"></a>Nokia5110_Clear</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, nokia5110.o(i.Nokia5110_Clear))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Nokia5110_Clear &rArr; Nokia5110_SetCursor
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_SetCursor
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdwrite
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__MAIN
+</UL>
+
+<P><STRONG><a name="[a8]"></a>Nokia5110_ClearBuffer</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, nokia5110.o(i.Nokia5110_ClearBuffer))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__MAIN
+</UL>
+
+<P><STRONG><a name="[aa]"></a>Nokia5110_DisplayBuffer</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, nokia5110.o(i.Nokia5110_DisplayBuffer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Nokia5110_DisplayBuffer &rArr; Nokia5110_DrawFullImage &rArr; Nokia5110_SetCursor
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_DrawFullImage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__MAIN
+</UL>
+
+<P><STRONG><a name="[b9]"></a>Nokia5110_DrawFullImage</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, nokia5110.o(i.Nokia5110_DrawFullImage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Nokia5110_DrawFullImage &rArr; Nokia5110_SetCursor
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_SetCursor
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdwrite
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_DisplayBuffer
+</UL>
+
+<P><STRONG><a name="[ba]"></a>Nokia5110_Init</STRONG> (Thumb, 256 bytes, Stack size 8 bytes, nokia5110.o(i.Nokia5110_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Nokia5110_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdwrite
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b8]"></a>Nokia5110_SetCursor</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, nokia5110.o(i.Nokia5110_SetCursor))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Nokia5110_SetCursor
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcdwrite
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_DrawFullImage
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_Clear
+</UL>
+
+<P><STRONG><a name="[c0]"></a>SETUP_ADC</STRONG> (Thumb, 122 bytes, Stack size 0 bytes, setup.o(i.SETUP_ADC))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c1]"></a>SETUP_PORTD</STRONG> (Thumb, 86 bytes, Stack size 0 bytes, setup.o(i.SETUP_PORTD))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c2]"></a>SETUP_PORTF</STRONG> (Thumb, 124 bytes, Stack size 0 bytes, setup.o(i.SETUP_PORTF))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[bb]"></a>SETUP_UART0</STRONG> (Thumb, 134 bytes, Stack size 8 bytes, setup.o(i.SETUP_UART0))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SETUP_UART0 &rArr; free
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[ae]"></a>STRING_TX</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, setup.o(i.STRING_TX))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = STRING_TX
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CHAR_TX
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[9]"></a>SysTick_Handler</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, main.o(i.SysTick_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SysTick_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_tm4c123.o(RESET)
+</UL>
+<P><STRONG><a name="[c3]"></a>TIMER_1MS</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, setup.o(i.TIMER_1MS))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[d5]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[d6]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[d7]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[a0]"></a>clearFilledRectangle</STRONG> (Thumb, 46 bytes, Stack size 20 bytes, nokia5110.o(i.clearFilledRectangle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = clearFilledRectangle &rArr; clearHLine
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearHLine
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__reset
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__destroy
+</UL>
+
+<P><STRONG><a name="[bc]"></a>clearHLine</STRONG> (Thumb, 66 bytes, Stack size 20 bytes, nokia5110.o(i.clearHLine))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = clearHLine
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clearFilledRectangle
+</UL>
+
+<P><STRONG><a name="[ac]"></a>clearPixel</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, nokia5110.o(i.clearPixel))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = clearPixel
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__SHOWDISPLAY
+</UL>
+
+<P><STRONG><a name="[a3]"></a>drawBitmap</STRONG> (Thumb, 64 bytes, Stack size 32 bytes, nokia5110.o(i.drawBitmap))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = drawBitmap &rArr; drawByte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__init
+</UL>
+
+<P><STRONG><a name="[bd]"></a>drawByte</STRONG> (Thumb, 90 bytes, Stack size 20 bytes, nokia5110.o(i.drawByte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = drawByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawBitmap
+</UL>
+
+<P><STRONG><a name="[be]"></a>drawHLine</STRONG> (Thumb, 66 bytes, Stack size 20 bytes, nokia5110.o(i.drawHLine))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = drawHLine
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawRectangle
+</UL>
+
+<P><STRONG><a name="[a2]"></a>drawRectangle</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, nokia5110.o(i.drawRectangle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = drawRectangle &rArr; drawVLine &rArr; setPixel
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawVLine
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawHLine
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__init
+</UL>
+
+<P><STRONG><a name="[bf]"></a>drawVLine</STRONG> (Thumb, 40 bytes, Stack size 20 bytes, nokia5110.o(i.drawVLine))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = drawVLine &rArr; setPixel
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setPixel
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawRectangle
+</UL>
+
+<P><STRONG><a name="[a1]"></a>free</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, malloc.o(i.free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SETUP_UART0
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__destroy
+</UL>
+
+<P><STRONG><a name="[a4]"></a>invertPixel</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, nokia5110.o(i.invertPixel))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = invertPixel
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE__SCREEN_INVERT
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__init
+</UL>
+
+<P><STRONG><a name="[7c]"></a>main</STRONG> (Thumb, 660 bytes, Stack size 56 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 228<LI>Call Chain = main &rArr; BTN__create &rArr; BTN__init &rArr; drawRectangle &rArr; drawVLine &rArr; setPixel
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_1MS
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SETUP_UART0
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SETUP_PORTF
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SETUP_PORTD
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SETUP_ADC
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_Init
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_DisplayBuffer
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_ClearBuffer
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IS_THERE_A_CHAR
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CHAR_TX
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CHAR_RX
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__reset
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__destroy
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__create
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__click
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN_ROW__create
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN_ROW__BTNS
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;tempUpdate
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P><STRONG><a name="[95]"></a>malloc</STRONG> (Thumb, 92 bytes, Stack size 20 bytes, malloc.o(i.malloc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = malloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN__create
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BTN_ROW__create
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ANT__create
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__MAIN
+</UL>
+
+<P><STRONG><a name="[ab]"></a>setPixel</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, nokia5110.o(i.setPixel))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = setPixel
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;drawVLine
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_ANT__SHOWDISPLAY
+</UL>
+
+<P><STRONG><a name="[c7]"></a>tempUpdate</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, main.o(i.tempUpdate))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b5]"></a>text</STRONG> (Thumb, 1228 bytes, Stack size 56 bytes, nokia5110.o(i.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = text
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+
+<P><STRONG><a name="[b3]"></a>time</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, main.o(i.time))
+<BR><BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GVGE_CLOCK__MAIN
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[b7]"></a>lcdwrite</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, nokia5110.o(i.lcdwrite))
+<BR><BR>[Called By]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_SetCursor
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_DrawFullImage
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_Init
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_Clear
+</UL>
+
+<P><STRONG><a name="[7f]"></a>_scanf_char_input</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, scanf_char.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> scanf_char.o(.text)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

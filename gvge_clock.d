@@ -1,0 +1,12 @@
+.\gvge_clock.o: gvge_clock.c
+.\gvge_clock.o: gvge_clock.h
+.\gvge_clock.o: gvge.h
+.\gvge_clock.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\gvge_clock.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\gvge_clock.o: Nokia5110.h
+.\gvge_clock.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\gvge_clock.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\time.h
+.\gvge_clock.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\string.h
+.\gvge_clock.o: setup.h
+.\gvge_clock.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\gvge_clock.o: tm4c123gh6pm.h

@@ -1,0 +1,15 @@
+Program test;
+#include("stdlib.hhf")
+
+static
+	InitDemo:		int32 := 5;
+	NotInitialized:	int32;
+
+begin test;
+	
+	stdout.put("InitDemo's value is ", InitDemo, nl);
+	stdout.put("Enter an integer value: ");
+	stdin.get(NotInitializaed);
+	stdout.put("You entered: ", NotInitialized);
+
+end test;
